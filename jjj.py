@@ -8,8 +8,7 @@ from kivy.clock import Clock
 from random import randint
 
 
-class P
-    ongPaddle(Widget):
+class PongPaddle(Widget):
     score = NumericProperty(0)  ## очки игрока
 
     ## Отскок мячика при коллизии с панелькой игрока
